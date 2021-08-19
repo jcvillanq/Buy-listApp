@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo"> Buy list </a><a href="#!" data-target="menu-responsive"
+                    class="sidenav-trigger">
+                    <i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Acerca de BuyList</a></li>
+                    <li>
+                        <a href="#">Registro/Entrar<i class="material-icons right">login</i></a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto <i class="material-icons right">mail</i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </div>
+    <ul class="sidenav" id="menu-responsive">
+        <li><a href="#">Acerca de BuyList</a></li>
+        <li><a href="#">Registro/Login </a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+
+    <!-- End Nav-Bar -->
+    <!-- form - register -->
+
+    <div class="row section container">
+        <form class="col s12 l12">
+            <div class="row">
+                <h2 class="header center-align size">Registro</h2>
+                <div class="input-field col s6 l4">
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6 l4">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+
+                <div class="input-field col s12 l4">
+                    <input id="NickName" type="text" class="validate">
+                    <label for="NickName">NickName</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="El email no es correcto" data-success="right"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 l6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-field col s12 l6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password Repeat</label>
+                </div>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+
+        </form>
+    </div>
+   
+    
+   
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+</body>
+
+</html>
