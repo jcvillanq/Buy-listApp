@@ -43,7 +43,7 @@
             </li>
             
             <li>
-              <a href="/contact.html">Contacto <i class="material-icons right">mail</i></a>
+              <a href="#">Contacto <i class="material-icons right">mail</i></a>
             </li>
           </ul>
           
@@ -60,33 +60,21 @@
     </ul>
 
     <!-- End Nav-Bar -->
-
-    <div class="parallax-container">
-      <div class="parallax">
-        <img
-          src="https://images.pexels.com/photos/5625130/pexels-photo-5625130.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-          alt=""
-        />
-      </div>
-    </div>
-
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header center">Buy List</h2>
-        <p class="grey-text text-darken-3 center">
-          Buy list es una aplicacion dinamica donde puedes guardar las lista de
-          tus compras.
-        </p>
-        <a href="#" class="waves-effect waves-light btn">Registrate!</a>
-      </div>
-    </div>
-    <div class="parallax-container">
-      <div class="parallax">
-        <img
-          src="https://images.pexels.com/photos/7267055/pexels-photo-7267055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-        />
-      </div>
-    </div>
+    <div class="container none">
+        <form action="#">
+            <label for="anadir">Mi lista de la compra:</label>
+            <input type="text" name="anadir" id="anadir">
+            <input type="button" value="Añadir a la lista">
+        </form>    
+        
+        <ul id="listaCompra">
+    
+    
+        </ul>
+        
+     
+       </div>
+ 
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
